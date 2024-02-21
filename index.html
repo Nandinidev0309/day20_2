@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes anim1 {
+           10%{
+                background-color: cadetblue;
+                }
+            20%{
+                background-color: aquamarine;
+                }
+            30%{
+                background-color: blueviolet;
+                }
+            40%{
+                background-color: cornflowerblue;
+                }
+            50%{
+                background-color: coral;
+            }
+            60%{
+                background-color: darkcyan;
+            }
+            70%{
+                background-color: darkgreen;
+            }
+            80%{
+                background-color: darkslategrey;
+            }
+            90%{
+                background-color: deeppink;
+            }
+        }
+        .box{
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            animation-name:anim1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transform:translate(600px,300px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
+
+
